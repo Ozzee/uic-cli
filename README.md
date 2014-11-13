@@ -25,3 +25,7 @@ grunt
 The server is now accessible at: [http://localhost:9000](http://localhost:9000)
 
 There is also a server running at: [http://uic-demo.herokuapp.com/](http://uic-demo.herokuapp.com/)
+
+# License
+
+[MIT](http://opensource.org/licenses/MIT)
