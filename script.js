@@ -18,11 +18,11 @@ angular.module('smsApp', [])
 
     var news = [
       'News story 1 - Lorem ipsum Reprehenderit irure velit ea Excepteur et incididunt velit anim esse aliquip elit deserunt aute veniam dolore in ut dolore cupidatat.',
-      'News story 2',
-      'News story 3',
-      'News story 4',
-      'News story 5',
-      'News story 6'
+      'News story 2 - Lorem ipsum Voluptate velit esse mollit tempor id sed irure laboris exercitation labore veniam eiusmod.',
+      'News story 3 - Lorem ipsum Duis minim nisi dolor ea exercitation sunt sit minim ullamco veniam minim sed.',
+      'News story 4 - Lorem ipsum Exercitation quis cillum in dolore ullamco do sunt ad cupidatat Duis quis sed aliquip proident laborum non culpa.',
+      'News story 5 - Lorem ipsum Ullamco enim anim laborum deserunt velit in ut minim dolore in esse officia non officia do labore.',
+      'News story 6 - Lorem ipsum Exercitation veniam consequat ut esse reprehenderit ut exercitation do consequat.'
     ];
 
     var help =  'Available commands:\n'+
