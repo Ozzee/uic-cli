@@ -1,0 +1,25 @@
+<html ng-app="smsApp">
+  <head>
+    <title>CLI</title>
+    <script src="bower_components/angular/angular.js"></script>
+    <style type="text/css">
+    .sent {
+      background-color: #f4f4f4;
+    }
+    </style>
+  </head>
+  <body ng-controller="smsController">
+    <h1>CLI</h1>
+
+    <form>
+      <textarea autofocus maxlength="180" ng-model="sms" placeholder="Try 'HELP'" rows="5" cols="40"></textarea>
+      <br>
+      <button ng-click="sendSMS()">Send</button>
+    </form>
+    <div>
+      <pre ng-repeat="message in messages | reverse" ng-class="{sent: message.sent}">{{message.text}}</pre>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
