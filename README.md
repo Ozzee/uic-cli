@@ -1,7 +1,7 @@
 # T-121.5300 User Interface Construction
 
-* Raoul Udd, 82002V
-* Oskar Ehnström, 79411M
+* Raoul Udd
+* Oskar Ehnström
 
 ## CLI
 
