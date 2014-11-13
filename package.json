@@ -4,7 +4,7 @@
   "description": "UIC cli",
   "scripts": {
     "start": "node server.js",
-    "prestart": "npm install"
+    "postinstall": "npm install"
   },
   "dependencies": {
     "bower": "^1.3.12",
